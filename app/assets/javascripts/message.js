@@ -64,7 +64,7 @@ $(function(){
       }
     })
     .fail(function() {
-      console.log('error');
+      alert('reloadMessageError');
     });
   };
   if (document.location.href.match(/\/groups\/\d+\/messages/)) {
