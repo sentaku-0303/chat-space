@@ -23,6 +23,9 @@
       }
     }
     .right-header {
+      a {
+        text-decoration: none;
+      }
       border: 1px solid $light_blue;
       color: $light_blue;
       float: right;
